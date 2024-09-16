@@ -45,6 +45,22 @@
             text-align: center;
             padding: 10px;
         }
+            
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -145,7 +161,10 @@
             <p>Aunque la IA promete mejorar la eficiencia y precisión en múltiples campos, también plantea desafíos como el desplazamiento laboral, problemas de privacidad y sesgos en los algoritmos. Abordar estos problemas de manera ética y equitativa es esencial para asegurar que la IA beneficie a la sociedad en su conjunto.</p>
              <img src="juanito.jpg" alt="lol" width="600" height="400">
     </div>
-
+    <h5>Un video para entender mejor </h5>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/watch?v=8lMIdrlIWOQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="footer">
         <p>Gracias xd</p>
     </div>
